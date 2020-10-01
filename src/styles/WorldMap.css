@@ -1,0 +1,8 @@
+.track-info-panel {
+  margin-top: 10px;
+}
+
+.track-info-panel button{
+  background-color: rgb(52, 152, 219);
+  border:rgb(52, 152, 219);
+}

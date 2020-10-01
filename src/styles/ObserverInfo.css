@@ -1,0 +1,45 @@
+.observer-info-container {
+    margin: 10px;
+    border: 1px solid #ccc;
+  }
+
+  .observer-info-container button{
+    background-color: rgb(52, 152, 219);
+    border:rgb(52, 152, 219);
+    width: 50%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .observer-info-container h5{
+      margin: 5px 0px;
+  }
+  
+  .observer-info-container .ant-input-number{
+    width:56% !important;
+  }
+  
+  .label-text {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .label-text .hover-text {
+    visibility: hidden;
+    width: max-content;
+    background-color: rgb(52, 152, 219);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+  
+    /* Position the label-text */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .label-text:hover .hover-text {
+    visibility: visible;
+  }
